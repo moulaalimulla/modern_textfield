@@ -1,10 +1,7 @@
 name: modern_textfield
-description: '''A advance and modern textfield package 
-using which you can create multiple texfield widgets. 
-The package contains multiple features such as adding show 
-hide password icon, making textfield input type as only numbers and more.'''
-version: 0.0.1
-homepage: https://github.com/moulaalimulla/modern_textfield
+description:  A advance and modern textfield package using which you can create multiple texfield widgets.
+version: 0.0.3
+homepage: https://github.com/moulaalimulla/modern_textfield/tree/master
 
 environment:
   sdk: '>=3.1.0 <4.0.0'

@@ -7,3 +7,9 @@
 -- Add show hide password feature
 -- Mention field type is number or text
 -- Support text editing controllers
+
+## 0.0.2
+-- Fixed some minor issues
+
+## 0.0.3
+-- Added some documentation comments in the code

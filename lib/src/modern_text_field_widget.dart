@@ -41,8 +41,11 @@ class ModernTextField extends StatefulWidget {
 }
 
 class _ModernTextFieldState extends State<ModernTextField> {
+  /// This is show hide password helper variable
+  ///
   bool showPassword = false;
 
+  ///This is the show hide password onclick function
   void showHidePassword() {
     if (showPassword == true) {
       setState(() {
@@ -57,7 +60,9 @@ class _ModernTextFieldState extends State<ModernTextField> {
 
   @override
   Widget build(BuildContext context) {
+    /// This is the start of the custom textfield widget code
     return Align(
+      ///Textfield container code
       child: Container(
         alignment: Alignment.center,
         width: widget.width != null
@@ -74,9 +79,13 @@ class _ModernTextFieldState extends State<ModernTextField> {
             ),
           ),
         ),
+
+        ///Textfield code
         child: ListTile(
           contentPadding: EdgeInsets.zero,
           minVerticalPadding: 0,
+
+          ///This is left icon code
           leading: Container(
             margin: const EdgeInsets.only(
               left: 5,
@@ -106,7 +115,7 @@ class _ModernTextFieldState extends State<ModernTextField> {
                 ),
           ),
 
-          //Text Field Code Starts Here
+          ///Text Field Code Starts Here
           title: Center(
             child: TextField(
               obscureText: showPassword,
@@ -129,6 +138,8 @@ class _ModernTextFieldState extends State<ModernTextField> {
               ),
             ),
           ),
+
+          ///This is trailing icon widget code
           trailing: widget.isPasswordField == true
               ? IconButton(
                   onPressed: showHidePassword,
