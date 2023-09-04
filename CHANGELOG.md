@@ -13,3 +13,6 @@
 
 ## 0.0.3
 -- Added some documentation comments in the code
+
+## 0.0.4
+-- Fixed some minor issues

@@ -8,7 +8,7 @@ A advance and modern textfield package using which you can create multiple texfi
 1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
 ```yaml
 dependencies:
-  modern_textfield: ^0.0.3
+  modern_textfield: ^0.0.4
 ```
 2. Import the package and use it in your Flutter App.
 ```dart
@@ -63,7 +63,7 @@ class ModerTextFieldScreen extends StatelessWidget {
 
 </td>
 <td>
-<img  src="http://itsodoo.com/wp-content/uploads/2023/09/modern_textfield_examples_screenshot.jpeg"  alt="">
+<img  src="https://itsodoo.com/wp-content/uploads/2023/09/modern_textfield_examples_screenshot.jpeg"  alt="">
 </td>
 </tr>
 </table>
